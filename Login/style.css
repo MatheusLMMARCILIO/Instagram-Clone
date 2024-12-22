@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+
+
+.Login__box {
+    max-width: 350px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    top: 0;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    border:  1px solid #3e474d;
+}
+
+.Login__box img {
+    width: 100%;
+    max-width: 175px;
+    margin: 36px 0 12px 0;
+}
+
+.Form__box {
+    width: 268px;
+    height: 140px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Form__box input {
+    width: 100%;
+    height: 36px;
+    background-color: #121212;
+    padding: 9px 0 7px 8px;
+    text-align: left;
+    outline: none;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 3px;
+    margin: 0px 40px 6px;
+    color: #a8a8a8;
+}
+
+.Enter__btn {
+    width: 100%;
+    height: 36px;
+    max-width: 268px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    background-color: #0095f6;
+    font-size: 15px;
+    margin: 8px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Login__box span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a8a8a8;
+    margin: 14px 40px 22px;
+}
+
+.Facebook__account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 40px;
+}
+
+.Facebook__account a,
+i {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0095f6;
+    cursor: pointer;
+}
+
+.Facebook__account a:hover{
+    color: #fff;
+}
+
+.forget__password a {
+    color: #e0f1ff;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 12px 0px;
+}
+
+/**/
+
+.Sing-up__box {
+    max-width: 350px;
+    width: 100%;
+    height: 62px;
+    background-color: transparent;
+    border:  1px solid #3e474d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sing-up__box span {
+    font-size: 14px;
+    color: #e0f1ff;
+    margin: 0px 0px 0px 2px;
+}
+
+.Sing-up__box a {
+    font-size: 14px;
+    color: #e0f1ff;
+    margin: 0px;
+    padding: 0px;
+    color: #0095f6;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Get__app {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Get__app span {
+    font-size: 14px;
+    color: #e0f1ff;
+    margin: 10px 0px;
+}
+
+.img__download {
+    display: flex;
+}
+
+.img__download img {
+    max-width: 134px;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0px 5px;
+}
